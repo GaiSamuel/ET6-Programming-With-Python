@@ -10,14 +10,14 @@ Fill in the blanks to pass the assertions.
 a = 2
 b = 1
 
-assert a == _, "a's initial value"
-assert b == _, "b's initial value"
+assert a == 2
+assert b == 1
 
 temp = a
-assert temp == _, "temp's final value"
+assert temp == 2
 
 a = b
-assert a == _, "a's final value"
+assert a == 1
 
 b = temp
-assert b == _, "b's final value"
+assert b == 2

@@ -29,7 +29,7 @@ replaced = text.replace("P", "Z")
 replaced = text.replace("p", "z")
 replaced = text.replace("on", "agoras")
 
-# setting strings to lower or opper case
+# setting strings to lower or upper case
 upper = text.upper()
 lower = text.lower()
 

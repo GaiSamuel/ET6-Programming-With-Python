@@ -24,7 +24,7 @@ print("This program prints your input in reverse.\n")
 
 user_text = ""
 while user_text == "":
-    user_text = input("\nEnter some something to reverse: ")
+    user_text = input("\nEnter something to reverse: ")
     if user_text == "":
         print("Nope, gotta enter something.  Try again.")
 
